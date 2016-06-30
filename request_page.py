@@ -1,13 +1,23 @@
 import requests
-from parse_page import ParsePage
 import time
 
 
 class RequestPage(object):
 
-    def __init__(self):
+    def __init__(self, origin, destination, outbound_date):
+        """
+
+        :param origin:
+        :param destination:
+        :param outbound_date: format: m/d/yyyy
+        :return:
+        """
         self.url = 'https://www.southwest.com/flight/search-flight.html?int=HOMEQBOMAIR'
         self.headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'}
+
+        self.origin = origin
+        self.destination = destination
+        self.outbound_date = outbound_date.strftime('%m/%d/%Y')
 
     def request_page(self):
         session = requests.Session()
@@ -18,9 +28,9 @@ class RequestPage(object):
         payload = {'returnAirport': '',
                    'twoWayTrip': 'false',
                    'fareType': 'DOLLARS',
-                   'originAirport': 'LGA',
-                   'destinationAirport': 'LAX',
-                   'outboundDateString': '12/8/2016',
+                   'originAirport': self.origin,
+                   'destinationAirport': self.destination,
+                   'outboundDateString': self.outbound_date,
                    'returnDateString': '',
                    'adultPassengerCount': 1,
                    'seniorPassengerCount': 0,
@@ -37,7 +47,7 @@ class RequestPage(object):
 
         return req.content
 
-rr = RequestPage()
-parse = ParsePage(rr.request_page())
+#rr = RequestPage('LGA', 'LAX', '9/8/2016')
+#parse = ParsePage(rr.request_page())
 
 

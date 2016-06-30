@@ -9,8 +9,11 @@ class ParsePage(object):
         self.flights = self.get_flight_rows()
         self.flight_data = []
         for flight in self.flights:
-            print self.parse_flight(flight)
+            self.flight_data.append(self.parse_flight(flight))
         print 'done'
+
+    def get_flight_data(self):
+        return self.flight_data
 
     def parse_flight(self, row):
         return {'depart': self._depart_time(row),
