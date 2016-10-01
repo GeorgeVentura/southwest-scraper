@@ -1,0 +1,98 @@
+CAK Akron, OH
+ALB Albany, NY
+ABQ Albuquerque, NM
+AMA Amarillo, TX
+AUA Aruba, Aruba
+ATL Atlanta, GA
+AUS Austin, TX
+BWI Baltimore, MD
+BZE Belize City, Belize
+BHM Birmingham, AL
+BOI Boise, ID
+BOS Boston, MA
+BUF Buffalo, NY
+BUR Burbank,Ontario,Orange County,Los Angeles, CA
+SJD Los Cabos, MX
+CUN Cancun, Mexico
+CHS Charleston, SC
+CLT Charlotte, NC
+MDW Chicago, IL
+CLE Cleveland, OH
+CMH Columbus, OH
+CRP Corpus Christi, TX
+DAL Dallas, TX
+DAY Dayton, OH
+DEN Denver, CO
+DSM Des Moines, IA
+DTW Detroit, MI
+ELP El Paso, TX
+FNT Flint, MI
+FLL Fort Lauderdale, FL
+RSW Fort Myers, FL
+GRR Grand Rapids, MI
+GSP Greenville/Spartanburg, SC
+HRL Harlingen, TX
+BDL Hartford, CT
+HOU Houston, TX
+IND Indianapolis, IN
+JAX Jacksonville, FL
+MCI Kansas City, MO
+LAS Las Vegas, NV
+LIR Liberia, Costa Rica
+LIT Little Rock, AR
+LGB Long Beach, CA
+ISP Long Island, NY
+LAX Los Angeles,Burbank,Ontario,Orange County, CA
+SDF Louisville, KY
+LBB Lubbock, TX
+MHT Manchester, NH
+MEM Memphis, TN
+MEX Mexico City, Mexico
+MAF Midland,Odessa, TX
+MKE Milwaukee, WI
+MSP Minneapolis, MN
+MBJ Montego Bay, Jamaica
+BNA Nashville, TN
+NAS Nassau, Bahamas
+MSY New Orleans, LA
+LGA New York, NY
+EWR Newark, NJ
+ORF Norfolk, VA
+OAK Oakland,San Jose, CA
+OKC Oklahoma City, OK
+OMA Omaha, NE
+ONT Ontario,Burbank,Orange County,Los Angeles, CA
+SNA Orange County,Burbank,Ontario,Los Angeles, CA
+MCO Orlando, FL
+ECP Panama City, FL
+PNS Pensacola, FL
+PHL Philadelphia, PA
+PHX Phoenix, AZ
+PIT Pittsburgh, PA
+PDX Portland, OR
+PWM Portland, ME
+PVD Providence, RI
+PVR Puerto Vallarta, MX
+PUJ Punta Cana, DR
+RDU Raleigh,Durham, NC
+RNO Reno,Tahoe, NV
+RIC Richmond, VA
+ROC Rochester, NY
+SMF Sacramento, CA
+SLC Salt Lake City, UT
+SAT San Antonio, TX
+SAN San Diego, CA
+SFO San Francisco, CA
+SJC San Jose,Oakland, CA
+SJO San Jose, Costa Rica
+SJU San Juan, PR
+SEA Seattle,Tacoma, WA
+GEG Spokane, WA
+STL St. Louis, MO
+TPA Tampa, FL
+TUS Tucson, AZ
+TUL Tulsa, OK
+IAD Washington D.C., DC
+DCA Washington D.C., DC
+PBI West Palm Beach, FL
+ICT Wichita, KS
